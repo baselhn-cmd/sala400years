@@ -1,3 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;900&family=Lato:ital,wght@0,100;0,400;1,100;1,300&family=Libre+Franklin:ital@1&family=Playpen+Sans:wght@600&family=Roboto:wght@500&display=swap');
+
+
 /* Asterisk wildcard selector to override default styles added by browser */
 *{
     padding: 0;
@@ -12,6 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #a3a3a3;
+    font-family: 'Gabarito', lato;
 
 }
 
@@ -20,6 +25,9 @@ header {
     background-color: brown;
 }
 
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 /* Main Content*/
 main {
     background-color: rgb(195, 195, 218);
