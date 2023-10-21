@@ -29,10 +29,39 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #F1C40F;
 }
+header a {
+    text-decoration: none;
+    color: #F1C40F;
+}
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #F1C40F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
+
+}
+#menu > li {
+    margin-bottom: 1em;
+    border-bottom: 2mm ridge rgba(211, 220, 50, .6);
+    
+}
+
+/* Navbar styles with droppdown toggle*/
+nav {
+    position: absolute;
+    background-color: #4D5656;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
 }
 /* Main Content*/
 main {
