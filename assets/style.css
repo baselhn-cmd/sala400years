@@ -15,18 +15,24 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #a3a3a3;
+    color: #4D5656;
     font-family: 'Gabarito', lato;
 
 }
 
 /* Header*/
 header {
-    background-color: brown;
+    background-color: #4D5656;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #F1C40F;
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #F1C40F;
 }
 /* Main Content*/
 main {
