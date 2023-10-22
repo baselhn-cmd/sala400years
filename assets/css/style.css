@@ -83,12 +83,19 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: rgb(195, 195, 218);
+    background-color: #b7c7c7;
     /* Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 60px;
-    background-color: #b7c7c7;
+    
 }
+/* Sala Section */
+#sala {
+    height: 600px;
+    width: 100%;
+    background: url(../images/240442844_206715974828187_4106518616556259720_n.jpg) no-repeat center center/cover;
+}
+
 
 /* Footer */
 footer {
