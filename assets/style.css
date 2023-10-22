@@ -23,7 +23,7 @@ body {
 /* Header*/
 header {
     background-color: #4D5656;
-    padding: 0 1rem;
+    padding: 0 2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -46,6 +46,7 @@ h1 {
     color: #F1C40F;
     text-transform: uppercase;
     letter-spacing: 2px;
+    height: 60px;
 }
 #menu {
   font-size: 110%;
@@ -81,10 +82,11 @@ main {
     background-color: rgb(195, 195, 218);
     /* Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
+    
 }
 
 /* Footer */
 footer {
-    background-color: bisque;
+    background-color: rgb(73, 57, 36);
 }
