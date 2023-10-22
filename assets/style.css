@@ -123,10 +123,15 @@ footer {
     }
 
 
+}
 
-
-
-
+/* Media query: tablets and larger (992px and up) */
+@media screen and ( min-width: 992px  ) {
+    
+    #menu a:hover {
+            border-style: ridge;
+            color: #0e0d0d;
+        }
 
 
 
