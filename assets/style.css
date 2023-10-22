@@ -73,16 +73,26 @@ nav {
 }
 #nav-toggle {
     display: none;
+    
 }
 .nav-toggle {
     font-size: 2rem;
+    
 }
+
+
 /* Main Content*/
 main {
     background-color: rgb(195, 195, 218);
     /* Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 60px;
+    background-color: #b7c7c7;
+        < !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />< !-- Meta tags for search engin --><meta name="description" content=" SALA 400 becomes YEAR"><meta name="keywords" content=" sala, sweden, silvergråvan, travel, visit,">< !-- Title --><title>Sala 400 Years</title>< !-- Stylesheet--><link rel="stylesheet" href="assets/style.css"></head><body>< !-- Header --><header><a href="index.html"><h1 id="logo">SALA 400 </h1></a><input type="checkbox" name="nav-toggle" id="nav-toggle"><label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label><nav><ul id="menu"><li><a href="">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="sala400.html">400Years</a></li><li><a href="contactus.html">contact us</a></li></ul></nav></header>< !-- Main Content --><main>Main</main>< !-- Footer --><footer><ul><li><a href="http://www.facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Facebbok page (open in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li><li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a></li><li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a></li><li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li></ul><p class="copy">copyright © Basel Hussein 2023 . all right reserved</p><p class="code"><a href="https://codeinstitute.net/" target="_blank" aria-label="project for Code Institute">Code Institute</a></p></footer>< !-- Font Awesome kit --><script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script></body></html>
     
 }
 
@@ -102,6 +112,8 @@ footer > ul {
     
     
 }
+
+
 
 
 
