@@ -101,10 +101,14 @@ main {
 }
 /* Sala Section */
 #sala {
-    height: 600px;
+    height: 800px;
     width: 100%;
-    background: url(../images/240442844_206715974828187_4106518616556259720_n.jpg) no-repeat center center/cover;
+    background: url(../images/240442844_206715974828187_4106518616556259720_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
+    
 
 
 /* Footer */
