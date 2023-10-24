@@ -35,6 +35,10 @@ header {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    
+}
+.nav-toggle-label  {
+    color: #F1C40F;
 }
 header a {
     text-decoration: none;
@@ -43,7 +47,7 @@ header a {
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #dab31b;
+    color: #F1C40F;
     text-transform: uppercase;
     letter-spacing: 2px;
     height: 60px;
@@ -56,14 +60,17 @@ h1 {
 }
 #menu > li {
     margin-bottom: 1em;
-    border-bottom: 2mm ridge rgba(211, 220, 50, .6);
+    border-bottom: 2mm ridge #8ecca3;
     
+}
+#menu >li > a {
+color: #F1C40F;
 }
 
 /* Navbar styles with droppdown toggle*/
 nav {
     position: absolute;
-    background-color: #4D5656;
+    background-color:#4D5656;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -74,11 +81,14 @@ nav {
 #nav-toggle {
     display: none;
     
+    
 }
 .nav-toggle {
     font-size: 2rem;
     
+    
 }
+
 
 
 /* Main Content*/
@@ -111,6 +121,11 @@ footer {
 footer > ul {
     list-style-type: none;
     
+    
+}
+footer > ul > li > a {
+    color: #141414;
+    padding: 50px;
     
 }
 
