@@ -200,6 +200,17 @@ footer {
 .code > a{
     color: #F1C40F;
 }
+/* Sala 400 Years*/
+.sala-400 {
+    background-color: #8ecca3;
+    border: solid;
+    margin: auto;
+    padding: 10%;
+}
+.sala-years {
+    color: #141414;
+    font-size: larger;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
