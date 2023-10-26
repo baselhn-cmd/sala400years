@@ -144,6 +144,11 @@ main {
     border:50%;
     text-align: center;
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+}
     
 
 
