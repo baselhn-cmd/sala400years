@@ -110,7 +110,20 @@ main {
     background-size: cover;
     background-position: center top;
     position: relative;
-    
+    animation-name: big-pic-text;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes big-pic-text {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+
 }
 #sala-text {
     background-color: rgba(206, 207, 157, 0.38);
@@ -237,6 +250,18 @@ footer {
         line-height: 40px;
         margin: 0 0.5;
     }
+  #sala-text {
+    width: 300px;
+
+}
+#sala-silver {
+    width: 500px;
+}
+#sala-silver img {
+    width:480px;
+    height:200px ;
+}
+    
     /*  Main content */
     main {
         /* Push main content down to accommodate larger header */
