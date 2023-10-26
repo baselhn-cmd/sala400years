@@ -197,20 +197,9 @@ footer {
     flex-direction: column;
     
 }
-footer > ul {
-    list-style-type: none;
-    
-    
+.code > a{
+    color: #F1C40F;
 }
-footer > ul > li > a {
-    color: #141414;
-    padding: 10px;
-    
-}
-
-
-
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -257,19 +246,13 @@ footer > ul > li > a {
 }
 
 /* Media query: tablets and larger (992px and up) */
-@media screen and ( min-width: 992px  ) {
-    
+@media screen and (min-width: 992px) {
     #menu a:hover {
-            border-style: ridge;
-            color: #eeece8;
-        }
+        border-style: ridge;
+        color: #eeece8;
+    }
 
-
-  .gallery {
-    padding-left: 10%;
-  }
-
-
-
-
+    .gallery {
+        padding-left: 10%;
+    }
 }
