@@ -165,9 +165,26 @@ main {
     text-align: center;
     border-radius: 5px;
     padding:50px;
+    padding-top:10px;
     margin: 10% auto;
 }
+.here-is-sala {
+text-align: center;
+color: #ffcf0e;
+margin-top: 10px;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
 
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
 /* Footer */
 footer {
@@ -225,6 +242,15 @@ footer > ul > li > a {
         /* Push main content down to accommodate larger header */
         margin-top: 75px;
     }
+ /* Contact Us */
+        .contact_us_form {
+            width: 300px;
+            background-color:#73afaf;
+            text-align: center;
+            padding: 50px;
+            padding-top: 10px;
+            margin: 10% auto;
+        }
     
 
 
