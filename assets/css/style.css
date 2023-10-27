@@ -184,14 +184,13 @@ main {
 
 /* Contact Us */
 .contact_us_form {
-
+    width: 100%;
     background-color: #9fb8b8;
     text-align: center;
-    border-radius: 5px;
     padding:50px;
     padding-top:10px;
     margin: 10% auto;
-    position: absolute;
+    
 }
 .here-is-sala {
 text-align: center;
@@ -200,11 +199,10 @@ color: #302f2e;
 }
 .google-map iframe {
     
-    margin-top:5%;
-    margin-left: 10px;
-    height: 500px;
-    width: 250px;
-    
+    margin-top: 15%;
+        margin-left: 10px;
+        height: 500px;
+        width: 250px;
     
     
 }
@@ -292,16 +290,18 @@ width: 200px;
     
 
  /* Contact Us */
-        .contact_us_form {
-            width: 300px;
-            height: 400px;
-            background-color: aliceblue;
-            text-align: center;
-            padding: 50px;
-            margin: 10% auto;
-            margin-left:70%;
-            
-        }
+ .contact_us_form {
+    padding: 40px;
+    width: 1000px;
+    font-size: xx-large;
+
+ }
+ .submit-button {
+    width: 80px;
+ }
+ 
+ 
+ 
     
 
 
@@ -334,6 +334,9 @@ width: 200px;
     .sala-400 img {
         width: 100%;
     }
+
+    
+    
 
     
    
