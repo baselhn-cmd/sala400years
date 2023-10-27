@@ -126,7 +126,7 @@ main {
 
 }
 #sala-text {
-    background-color: rgba(206, 207, 157, 0.38);
+    background-color: rgba(211, 212, 130, 0.38);
     font-size: 14px;
     position:absolute;
     width: 85%;
@@ -141,21 +141,31 @@ main {
 
 }
 .big-text {
-    color: #141414;
-    font-size:x-large;
-    display: flex;
+    color: #0d0e0d;
+    font-size:large;
     justify-content: center;
     text-transform:uppercase;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 15%;
+    
+    
 }
-#sala-silver {
-    box-sizing: border-box;
-    border: 2px solid;
-    margin:20px;
-    border:50%;
+#landing-content {
+    color: #0d0e0d;
+    max-width: 100%;
+}
+#landing-content img {
+    max-width: 100%;
+}
+#landing-content h2 {
+    color: #003333;
+    max-width: 100%;
     text-align: center;
+    margin-top: 20px;
+}
+#landing-content p {
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 /* Gallery page */
@@ -263,10 +273,15 @@ footer {
 }
     
     /*  Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 75px;
+    #landing-content {
+        margin-left: 150px;
+
     }
+        
+        
+    
+    
+
  /* Contact Us */
         .contact_us_form {
             width: 300px;
@@ -293,4 +308,16 @@ footer {
     .gallery {
         padding-left: 10%;
     }
+    .big-text {
+        font-size: x-large;
+        margin-top: 150px;
+    }
+
+    
+   
+
+
+
+
+       
 }
