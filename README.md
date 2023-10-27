@@ -30,11 +30,13 @@ The Gallery page shows images of places in sala you can visite.
 ### Sala 400
 
 The Sala 400 page have some information about Sala
+
 ![Sala 400](assets/images/sala2.webp)
 
 ### Contact us
 
 The Contact us page enables users to request more information about outdoor activities, listed on the activities page. It includes fields for name, email, and radio buttons to select.
+
 ![Contact Us](assets/images/Screenshot%20(6).png)
 
 ### Features Left to Implement
@@ -97,4 +99,4 @@ The live link can be found here - <https://github.com/baselhn-cmd/sala400year>
   - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
-    - Special thanks to  mentor Dick Vlaanderen.
+- Special thanks to  mentor Dick Vlaanderen.
