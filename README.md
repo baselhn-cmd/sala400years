@@ -9,7 +9,7 @@ And nexst year sala becoming 400 years
 ### Existing Features
 
 - __Navigation Bar__
-- 
+  
 The top of page responsive navigation bar feature link to Home,Gallery,Sala400, and ContactUs page.
 Sala 400 logo serves as a link to the Start page.
 This is consistent navigation bar design user freindly navigation.
