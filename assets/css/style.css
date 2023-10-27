@@ -206,7 +206,18 @@ color: #302f2e;
     
     
 }
-
+/* Confirmation */
+.confirmation {
+    max-width: 100%;
+        padding: 50px;
+        text-align: center;
+        font-size: larger;
+        color: #0d0e0d;
+}
+.confirmation h2 {
+    color: #0d0e0d;
+    position: relative;
+}
 /* Footer */
 footer {
     background-color: #4a5a5a;
