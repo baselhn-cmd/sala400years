@@ -1,7 +1,8 @@
 #Sala becoming 400 years
 This website about the Sala city locality in Sweden.
 And nexst year sala becoming 400 years
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+![Responsice Mockup]( assets/images/Screenshot%20(7).png)
 
 ## Features
 
